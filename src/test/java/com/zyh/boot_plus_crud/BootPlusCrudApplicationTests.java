@@ -18,5 +18,6 @@ class BootPlusCrudApplicationTests {
     @Test
     void contextLoads3() {
         System.out.println("push test!");
+        System.out.println("pull test!");
     }
 }
