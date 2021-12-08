@@ -223,7 +223,7 @@
     // 分页信息拼接
     function build_page_info(result) {
         $("#page_info").empty();
-        var page = result.extend.pageInfo;
+        var page = result.extend.ipage;
         var str = "当前第"+page.pageNum+"页,共"+page.pages+"页,共"+page.total+"条数据";
         total = page.total;
         pagenum = page.pageNum;
@@ -232,7 +232,7 @@
     // 底层页码显示实现
     function build_page_nav(result) {
         $("#page_nav").empty();
-        var page = result.extend.pageInfo;
+        var page = result.extend.ipage;
         var ul = $("<ul></ul>").addClass("pagination");
         var syy = page_li_y(page.pageNum-1,"&laquo;","Previous");
         var sy = page_li_y("1","首页","Previous");
