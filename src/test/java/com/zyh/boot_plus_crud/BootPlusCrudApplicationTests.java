@@ -10,5 +10,8 @@ class BootPlusCrudApplicationTests {
     void contextLoads() {
         System.out.println("hello git!");
     }
-
+    @Test
+    void contextLoads2() {
+        System.out.println("hello git!2");
+    }
 }
