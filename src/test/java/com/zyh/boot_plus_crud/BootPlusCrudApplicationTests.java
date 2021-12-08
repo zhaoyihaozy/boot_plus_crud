@@ -15,4 +15,8 @@ class BootPlusCrudApplicationTests {
         System.out.println("hello git master3!");
         System.out.println("hello git hat-fix!");
     }
+    @Test
+    void contextLoads3() {
+        System.out.println("push test!");
+    }
 }
